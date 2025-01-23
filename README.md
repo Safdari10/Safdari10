@@ -11,8 +11,6 @@ adopting modern web technologies, AI, and innovative tools. Familiar with test-d
 coordination, I bring collaboration, adaptability, and a continuous eagerness to grow in the software
 development field. Dedicated to leveraging cutting-edge technologies and continuously improving to
 create impactful solutions.
-#### 💻 Skills: 
- Proficient in JavaScript, React.js, Node.js, MySQL, and MongoDB, with experience in frameworks like Next.js and tools like Docker, Azure, and GitHub.
 
 ## 🔨 Tech Stack
 ### Languages & Frameworks
