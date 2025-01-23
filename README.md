@@ -13,10 +13,6 @@ development field. Dedicated to leveraging cutting-edge technologies and continu
 create impactful solutions.
 #### 💻 Skills: 
  Proficient in JavaScript, React.js, Node.js, MySQL, and MongoDB, with experience in frameworks like Next.js and tools like Docker, Azure, and GitHub.
-#### 📘 Projects: 
- Worked on AI-driven solutions, dynamic web applications, and APIs utilizing TDD, Agile methodologies, and cloud computing.
-#### 🎨 Interests: 
- Love creating user-friendly designs with Tailwind CSS and exploring the intersection of AI and software development.
 
 ## 🔨 Tech Stack
 ### Languages & Frameworks
