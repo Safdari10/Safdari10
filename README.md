@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Zaker Safdari!
+# 👋 Hi, I'm Zak!
 🎯 Full-Stack Software Developer | 🌏 Auckland, New Zealand
 
 💡 Passionate about problem-solving, building efficient web applications, and continuously learning new technologies.
