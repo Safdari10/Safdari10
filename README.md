@@ -38,7 +38,7 @@ Check out more projects in my repositories!
 
 ## 📊 GitHub Stats
 
-![Safdari10's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Safdari10&show_icons=true&theme=radical)
+![Safdari10's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Safdari10&show_icons=false&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Safdari10&layout=compact&theme=radical)
 
