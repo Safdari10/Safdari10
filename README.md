@@ -14,11 +14,18 @@ create impactful solutions.
 
 ## 🔨 Tech Stack
 ### Languages & Frameworks
-Frontend: Next.js, React.js, Tailwind CSS, TypeScript, JavaScript, HTML, CSS
-Backend: Node.js, Express.js
-Databases: MySQL, MongoDB
-### Tools & Technologies
-Docker, Azure, Git, GitHub, Jira, Jest
+#### Frontend: 
+Next.js, React.js, React Native (Expo), JavaScript, TypeScript, Tailwind CSS, HTML, CSS and CSS Modules.
+#### Backend: 
+Node.js, Express.js, FastAPI (Python), PostgreSQL, MongoDB, MySQL
+#### AI Integration: 
+Open AI, Google Gemini, prompt Engineering
+#### DevOps and Tools:
+Docker, Alembic (database migration), Azure, Git, GitHub, Jira, Google Gemini.
+#### Testing: 
+Unit & integration testing, Test-Driven Development (TDD), Jest.
+#### Team Collaboration: 
+Agile and Scrum methodologies, Mob/Pair programming, Cross-functional collaboration.
 
 ## 📂 Featured Projects
 
