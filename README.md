@@ -46,6 +46,12 @@ Check out more projects in my repositories!
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Safdari10&layout=compact&theme=radical)
 
 
+## Languages Learning currently or basic familiarity: 
+deno
+Vue.js
+C+
+Flutter and Dart
+
 ## 📫 How to Reach Me
 
 📧 Email: zakersafdari@gmail.com
