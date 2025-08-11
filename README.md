@@ -41,7 +41,7 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 
 ---
 
-## 📂 Featured Projects
+## 📂 Recent Projects, features and fixes
 
 #### 🚦 **RevoSight Web App – Responsive Styles & UI Consistency**  
 **Tech Stack:** Next.js, TypeScript, Chakra UI, CSS Modules
