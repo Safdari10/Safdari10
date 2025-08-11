@@ -53,8 +53,18 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 - Cleaned up redundant styles, removed unused code, and improved code readability in style-related files.
 - Enhanced accessibility and maintainability of the UI by modularizing and organizing style definitions.
 
+#### 🚦 **RevoSight Web App – NX User Management Window**  
+**Tech Stack:** Next.js, TypeScript, React Query
+
+- Refactored NX User Management logic for better feature encapsulation by moving related hooks and utilities into a feature-scoped directory.
+- Improved error handling and user feedback by replacing error message rendering with toast notifications and adding a reusable ErrorMessage component.
+- Made the NX user table body scrollable with a max height for better usability when displaying long user lists.
+- Cleaned up code by removing debug logs, unused variables, and redundant comments in NX User Management components and hooks.
+- Updated API integration to use the `/admin` endpoint structure and ensured all NX user management hooks use the correct cloud system ID.
+- Fixed React Query cache keys and state management bugs in NX User Management to ensure reliable data updates and UI consistency.
+
 #### 🚦 **RevoSight Web App – Settings Tab Type Safety & UI Consistency**  
-**Tech Stack:** Next.js, TypeScript, Chakra UI, React Query
+**Tech Stack:** Next.js, TypeScript
 
 - Fixed and standardized Site ID display and alignment in the ConfigureModal for improved clarity and consistency.
 - Refactored and cleaned up type definitions and component props, removing unused properties and parameters to enhance type safety and maintainability in the Settings tab and related components.
