@@ -53,6 +53,19 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 - Cleaned up redundant styles, removed unused code, and improved code readability in style-related files.
 - Enhanced accessibility and maintainability of the UI by modularizing and organizing style definitions.
 
+#### 🚦 **RevoSight Web App – Settings Tab Type Safety & UI Consistency**  
+**Tech Stack:** Next.js, TypeScript, Chakra UI, React Query
+
+- Fixed and standardized Site ID display and alignment in the ConfigureModal for improved clarity and consistency.
+- Refactored and cleaned up type definitions and component props, removing unused properties and parameters to enhance type safety and maintainability in the Settings tab and related components.
+- Implemented pre-population of the SiteConfigure modal for single-site selection, streamlining the user workflow.
+- Updated SearchBarHeader and related components to pass and utilize site data more efficiently.
+- Removed unnecessary comments, console logs, and unused code from multiple components, improving code readability and maintainability.
+- Optimized dashboard performance by using useCallback and reducing configuration polling intervals.
+- Enhanced modal positioning and UI feedback for a more consistent user experience.
+- Improved React Query cache invalidation and data consistency for immediate UI updates.
+- Fixed and simplified logic for alarm control, external monitoring, and temporary disarm features, ensuring correct behavior for multi-site selection and error handling.
+
 #### 🚦 **Roadsite Violation App**  
 **Tech Stack:** Expo (React Native), Tailwind CSS, FastAPI, PostgreSQL, Alembic  
 
@@ -64,17 +77,6 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 - Cleaned up and refactored the roadside violation code for improved quality (without changing design or functionality).  
 - Collaborated with designers and engineers to deliver a robust, maintainable.
 
-#### 🏎️ **ZFuel App**  
-**Tech Stack:** Next.js, Tailwind CSS, MongoDB  
-Collaborated with UX designers to develop a responsive web app with a robust backend.
-
-#### 📘 **School App Project Library**  
-**Tech Stack:** React.js, Node.js, MySQL  
-Built a project library with dynamic filtering and responsive UI, applying Agile practices and unit testing.
-
-#### 🤖 **AI Job Interviewer App**  
-**Tech Stack:** Next.js, Tailwind CSS, Google Gemini SDK  
-Created an AI-driven job interviewer app integrating AI generation and mob programming techniques.
 
 📌 *See more projects in my repositories!*  
 
