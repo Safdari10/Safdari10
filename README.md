@@ -95,6 +95,24 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 - Improved React Query cache invalidation and data consistency for immediate UI updates.
 - Fixed and simplified logic for alarm control, external monitoring, and temporary disarm features, ensuring correct behavior for multi-site selection and error handling.
 
+
+#### 🚦 **RevoSight NX – Integration Site Portal Backend Implementation**
+**Tech Stack:** FastAPI, Python, SQLModel, Alembic, Redis
+
+- Designed and implemented the backend architecture for the Integration Site Portal, enabling seamless integration between external sites and the RevoSight platform.
+- Developed and refactored APIs for creating, updating, and managing integration sites, event rules, and related entities.
+- Built new database tables and wrote Alembic migration scripts to support integration sites, event rules, API keys, and related features.
+- Added robust authentication and authorization logic, including the creation of a dedicated Integration Admin role and supporting role-based access control for integration endpoints.
+- Implemented API key generation and secure endpoint access for third-party integrations.
+- Enhanced event rule management with endpoints for creating, updating, and retrieving event rules, supporting complex business logic and validation.
+- Improved error handling, logging, and input validation across all integration-related APIs.
+- Refactored and optimized database models and migration scripts to support new integration features and ensure data consistency.
+- Collaborated with the frontend team to integrate backend APIs with the new Integration Site Portal UI, providing technical guidance and support for smooth integration.
+- Addressed feedback and fixed issues related to integration site creation, event rule updates, and API reliability.
+- Added video analyzing and detection endpoints to support advanced integration scenarios.
+- Ensured all new features were covered by appropriate tests and documentation for maintainability.
+
+
 #### 🚦 **Roadsite Violation App**  
 **Tech Stack:** Expo (React Native), Tailwind CSS, FastAPI, PostgreSQL, Alembic  
 
