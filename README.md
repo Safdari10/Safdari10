@@ -43,15 +43,18 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 
 ## 📂 Recent Projects, features and fixes
 
-#### 🚦 **RevoSight Web App – Responsive Styles & UI Consistency**  
-**Tech Stack:** Next.js, TypeScript, Chakra UI, CSS Modules
+#### 🚦 **RevoSight Web App – Responsive Styles & UI Refactor**
+**Tech Stack:** Next.js, TypeScript, CSS Modules, React Query
 
-- Independently updated and refactored styles throughout the application to ensure full responsiveness on mobile, tablet, and desktop devices.
-- Standardized spacing, sizing, and color variables using CSS variables and design tokens for consistent theming.
-- Matched UI colors, spacing, and component layouts to Figma designs, confirming all visual changes with the application owner.
+- Refactored and modularized major UI features, moving and reorganizing components, styles, hooks, and types for maintainability and scalability.
+- Overhauled the application’s responsive design, ensuring optimal usability and appearance across mobile, tablet, and desktop devices.
+- Standardized spacing, sizing, and color variables using CSS variables and design tokens for consistent theming and easier future updates.
 - Improved and unified modal, table, button, and form styling for better visual clarity and user experience.
-- Cleaned up redundant styles, removed unused code, and improved code readability in style-related files.
-- Enhanced accessibility and maintainability of the UI by modularizing and organizing style definitions.
+- Enhanced and refactored dashboard, site management, and user management UIs, including table layouts, modal dialogs, and header components.
+- Added and improved responsive styles for all major UI elements, including confirmation modals, dropdowns, tables, headers, and search bars.
+- Cleaned up redundant styles, removed unused code, and improved code readability throughout the project.
+- Improved accessibility and maintainability by modularizing and organizing style definitions and UI logic.
+- Collaborated with the application owner to ensure all visual changes matched Figma designs and received approval.
 
 #### 🚦 **RevoSight Web App – NX User Management Window**  
 **Tech Stack:** Next.js, TypeScript, React Query
