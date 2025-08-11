@@ -106,6 +106,16 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 - Cleaned up and refactored the roadside violation code for improved quality (without changing design or functionality).  
 - Collaborated with designers and engineers to deliver a robust, maintainable.
 
+#### 🚦 **RevoSight NX – Mobile App API Enhancements & User Verification**
+**Tech Stack:** FastAPI, Python, Redis, SMTP
+
+- Implemented email verification for user sign-up, including Redis-backed verification code storage and validation.
+- Created a robust email service with SMTP support and error handling for sending verification codes.
+- Improved sign-in and sign-up error handling, and added user name to the authentication token payload for better client context.
+- Added endpoints and logic for role management: retrieve role ID by name, with new Pydantic schemas and service/repository layers.
+- Added endpoints and logic for company management: retrieve company ID by name, with new Pydantic schemas and service updates.
+- Refactored and extended user, role, and company routers to support new mobile app API requirements.
+- Updated and modularized input/output schemas for user, role, and company domains to improve validation and maintainability.
 
 📌 *See more projects in my repositories!*  
 
