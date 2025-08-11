@@ -55,6 +55,7 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 - Cleaned up redundant styles, removed unused code, and improved code readability throughout the project.
 - Improved accessibility and maintainability by modularizing and organizing style definitions and UI logic.
 - Collaborated with the application owner to ensure all visual changes matched Figma designs and received approval.
+  
 
 #### 🚦 **RevoSight Web App – NX User Management Window**  
 **Tech Stack:** Next.js, TypeScript, React Query
@@ -66,6 +67,21 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 - Updated API integration to use the `/admin` endpoint structure and ensured all NX user management hooks use the correct cloud system ID.
 - Fixed React Query cache keys and state management bugs in NX User Management to ensure reliable data updates and UI consistency.
 
+
+#### 🚦 **RevoSight NX – Admin Router & Robust User Management Refactor**
+**Tech Stack:** FastAPI, Python, Redis
+
+- Created a new admin router infrastructure to modularize and secure admin-related APIs.
+- Migrated NX User Management endpoints to the new admin router structure for enhanced security and maintainability.
+- Integrated the admin router into the main API, refactoring initial routes for consistency.
+- Added an endpoint to retrieve `cloud_system_id` by full site name, improving site lookup flexibility.
+- Refactored user management endpoints to remove redundant `cloud_system_id` validation and use database-driven site lookup.
+- Enhanced error handling and logging for NX user management endpoints, improving reliability and debuggability.
+- Implemented robust retry logic and forced token refresh for all NX user management endpoints to handle session expiration and token issues.
+- Improved token management in `AuthService` by adding `force_refresh_access_token` for more reliable authentication.
+- Reverted NX token storage and error handling to a more stable, pre-merge logic for reliability.
+
+  
 #### 🚦 **RevoSight Web App – Settings Tab Type Safety & UI Consistency**  
 **Tech Stack:** Next.js, TypeScript
 
