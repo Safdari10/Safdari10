@@ -42,7 +42,7 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 ---
 
 ## 📂 Recent Projects, features and fixes
-
+#### All my work except the PR creation are not reflected in the my contribution tracker hence the days with no or few contributions. The Repos for RevoTech are not reflecting, hence I have added some work example below.
 ### 🚦 **RevoSight Web App – Responsive Styles & UI Refactor**
 **Tech Stack:** Next.js, TypeScript, CSS Modules, React Query
 
