@@ -42,7 +42,8 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 ---
 
 ## 📂 Recent Projects, features and fixes
-#### All my work except the PR creation are not reflected in the my contribution tracker hence the days with no or few contributions. The Repos for RevoTech are not reflecting, hence I have added some work example below.
+### All my work at Revo Tech except the PR creation are not reflected in the my contribution tracker hence the days with no or few contributions since beginning of this year. The Repos for RevoTech owned by someone else and I am just doing internship as result even though I have private contributions on, it still wont show my work contributions, hence I have added some work example below, I will be creating a portfolio to include all the work done in Revo Tech. 
+
 ### 🚦 **RevoSight Web App – Responsive Styles & UI Refactor**
 **Tech Stack:** Next.js, TypeScript, CSS Modules, React Query
 
