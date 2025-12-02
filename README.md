@@ -151,8 +151,6 @@ Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration
 
 📌 *See more projects in my repositories!*  
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Safdari10&layout=compact&theme=radical)  
-
 ---
 
 ## 📚 Currently Learning / Exploring  
