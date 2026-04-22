@@ -1,167 +1,115 @@
-# 👋 Hi, I'm Zak!
-🎯 Full-Stack Software Developer | 🌏 Auckland, New Zealand  
+# 👋 Hi, I’m Zak  
+Full-Stack Developer based in Auckland, New Zealand  
 
-💡 Passionate about problem-solving, building efficient web applications, and continuously learning new technologies.  
+I build full-stack applications using React, Next.js, and FastAPI, with experience in API development, database design, and AI-integrated features.  
 
----
-
-## 👩‍💻 About Me
-I’m a Full-Stack Developer with a knack for quickly learning modern web technologies, AI tools, and innovative development practices. I thrive in collaborative environments, adapting easily to new challenges while keeping the end-user experience at the core of my work.
+I’ve worked on real-world applications across frontend, backend, and system workflows, focusing on building reliable user-facing features and solving problems across the stack.
 
 ---
 
-## 🌱 Learning Journey
-- 💡 Strong foundation in problem-solving and full-stack development.  
-- 🚀 Quick to adopt modern web technologies, AI, and innovative tools.  
-- 🧪 Experienced in Test-Driven Development (TDD) and Agile methodologies.  
-- 🤝 Background in business ownership & team coordination — bringing collaboration and adaptability.  
-- 📚 Dedicated to continuous learning and leveraging cutting-edge tech to build impactful, user-friendly solutions.  
+## 🚀 Key Highlights
+
+- Built and delivered full-stack features across frontend (Next.js), backend (FastAPI), and PostgreSQL  
+- Designed and implemented REST APIs, database schemas, and responsive UI components  
+- Contributed to AI-driven features, including prompt-based video analysis workflows  
+- Worked in Agile teams using GitHub (PRs, code reviews) and Jira  
 
 ---
 
 ## 🔨 Tech Stack
 
-### **Frontend**  
-Next.js • React.js • React Native (Expo) • JavaScript • TypeScript • Tailwind CSS • HTML • CSS • CSS Modules  
+**Frontend**  
+React • Next.js • TypeScript • JavaScript • Tailwind CSS • HTML • CSS  
 
-### **Backend**  
-Node.js • Express.js • FastAPI (Python) • PostgreSQL • MongoDB • MySQL  
+**Backend**  
+FastAPI (Python) • Node.js • Express.js • PostgreSQL • MongoDB  
 
-### **AI Integration**  
-OpenAI • Google Gemini • Prompt Engineering  
+**AI Integration**  
+Prompt Engineering • OpenAI • Google Gemini  
 
-### **DevOps & Tools**  
-Docker • Alembic (DB Migrations) • Azure • Git • GitHub • Jira  
+**Tools & Platforms**  
+Docker • Alembic • Azure • Git • GitHub • Jira  
 
-### **Testing**  
-Unit & Integration Testing • TDD • Jest  
-
-### **Team Collaboration**  
-Agile & Scrum • Mob/Pair Programming • Cross-Functional Collaboration  
+**Testing**  
+Jest • API testing (Postman, Swagger UI)  
 
 ---
 
-## 📂 Recent Projects, features and fixes
-### All my work at Revo Tech except the PR creation are not reflected in the my contribution tracker hence the days with no or few contributions. The Repos for RevoTech owned by someone else and I am just doing internship as result even though I have private contributions on, it still wont show my work contributions, hence I have added some work example below, I will be creating a portfolio to include all the work done in Revo Tech. 
+## 📂 Selected Work (Revo Tech Internship)
 
-### 🚦 **RevoSight Web App – Responsive Styles & UI Refactor**
-**Tech Stack:** Next.js, TypeScript, CSS Modules, React Query
-
-- Refactored and modularized major UI features, moving and reorganizing components, styles, hooks, and types for maintainability and scalability.
-- Overhauled the application’s responsive design, ensuring optimal usability and appearance across mobile, tablet, and desktop devices.
-- Standardized spacing, sizing, and color variables using CSS variables and design tokens for consistent theming and easier future updates.
-- Improved and unified modal, table, button, and form styling for better visual clarity and user experience.
-- Enhanced and refactored dashboard, site management, and user management UIs, including table layouts, modal dialogs, and header components.
-- Added and improved responsive styles for all major UI elements, including confirmation modals, dropdowns, tables, headers, and search bars.
-- Cleaned up redundant styles, removed unused code, and improved code readability throughout the project.
-- Improved accessibility and maintainability by modularizing and organizing style definitions and UI logic.
-- Collaborated with the application owner to ensure all visual changes matched Figma designs and received approval.
-  
-
-### 🚦 **RevoSight Web App – NX User Management Window**  
-**Tech Stack:** Next.js, TypeScript, React Query
-
-- Refactored NX User Management logic for better feature encapsulation by moving related hooks and utilities into a feature-scoped directory.
-- Improved error handling and user feedback by replacing error message rendering with toast notifications and adding a reusable ErrorMessage component.
-- Made the NX user table body scrollable with a max height for better usability when displaying long user lists.
-- Cleaned up code by removing debug logs, unused variables, and redundant comments in NX User Management components and hooks.
-- Updated API integration to use the `/admin` endpoint structure and ensured all NX user management hooks use the correct cloud system ID.
-- Fixed React Query cache keys and state management bugs in NX User Management to ensure reliable data updates and UI consistency.
-
-
-### 🚦 **RevoSight NX – Admin Router & Robust User Management Refactor**
-**Tech Stack:** FastAPI, Python, Redis
-
-- Created a new admin router infrastructure to modularize and secure admin-related APIs.
-- Migrated NX User Management endpoints to the new admin router structure for enhanced security and maintainability.
-- Integrated the admin router into the main API, refactoring initial routes for consistency.
-- Added an endpoint to retrieve `cloud_system_id` by full site name, improving site lookup flexibility.
-- Refactored user management endpoints to remove redundant `cloud_system_id` validation and use database-driven site lookup.
-- Enhanced error handling and logging for NX user management endpoints, improving reliability and debuggability.
-- Implemented robust retry logic and forced token refresh for all NX user management endpoints to handle session expiration and token issues.
-- Improved token management in `AuthService` by adding `force_refresh_access_token` for more reliable authentication.
-- Reverted NX token storage and error handling to a more stable, pre-merge logic for reliability.
-
-  
-### 🚦 **RevoSight Web App – Settings Tab Type Safety & UI Consistency**  
-**Tech Stack:** Next.js, TypeScript
-
-- Fixed and standardized Site ID display and alignment in the ConfigureModal for improved clarity and consistency.
-- Refactored and cleaned up type definitions and component props, removing unused properties and parameters to enhance type safety and maintainability in the Settings tab and related components.
-- Implemented pre-population of the SiteConfigure modal for single-site selection, streamlining the user workflow.
-- Updated SearchBarHeader and related components to pass and utilize site data more efficiently.
-- Removed unnecessary comments, console logs, and unused code from multiple components, improving code readability and maintainability.
-- Optimized dashboard performance by using useCallback and reducing configuration polling intervals.
-- Enhanced modal positioning and UI feedback for a more consistent user experience.
-- Improved React Query cache invalidation and data consistency for immediate UI updates.
-- Fixed and simplified logic for alarm control, external monitoring, and temporary disarm features, ensuring correct behavior for multi-site selection and error handling.
-
-#### 🚦 **Roadsite Violation App**  
-**Tech Stack:** Expo (React Native), Tailwind CSS, FastAPI, PostgreSQL, Alembic  
-
-- Revamped and modularized the app by refactoring and restructuring code into dedicated files and folders for better maintainability.  
-- Developed and integrated backend APIs for the arm/disarm feature and login functionality using FastAPI, Alembic, and PostgreSQL.  
-- Connected the frontend and backend, ensuring APIs send and receive data in the correct format.  
-- Redesigned and implemented user authentication on the frontend.  
-- Built the arm/disarm feature end-to-end, including implementing Figma designs from UX designers.  
-- Cleaned up and refactored the roadside violation code for improved quality (without changing design or functionality).  
-- Collaborated with designers and engineers to deliver a robust, maintainable.
-
-### 🚦 **RevoSight NX – Mobile App API Enhancements & User Verification**
-**Tech Stack:** FastAPI, Python, Redis, SMTP
-
-- Implemented email verification for user sign-up, including Redis-backed verification code storage and validation.
-- Created a robust email service with SMTP support and error handling for sending verification codes.
-- Improved sign-in and sign-up error handling, and added user name to the authentication token payload for better client context.
-- Added endpoints and logic for role management: retrieve role ID by name, with new Pydantic schemas and service/repository layers.
-- Added endpoints and logic for company management: retrieve company ID by name, with new Pydantic schemas and service updates.
-- Refactored and extended user, role, and company routers to support new mobile app API requirements.
-- Updated and modularized input/output schemas for user, role, and company domains to improve validation and maintainability.
-
-
-### 🚦 **RevoSight NX – Integration Site Portal Backend Implementation**
-**Tech Stack:** FastAPI, Python, SQLModel, Alembic, Redis
-
-- Designed and implemented the backend architecture for the Integration Site Portal, enabling seamless integration between external sites and the RevoSight platform.
-- Developed and refactored APIs for creating, updating, and managing integration sites, event rules, and related entities.
-- Built new database tables and wrote Alembic migration scripts to support integration sites, event rules, API keys, and related features.
-- Added robust authentication and authorization logic, including the creation of a dedicated Integration Admin role and supporting role-based access control for integration endpoints.
-- Implemented API key generation and secure endpoint access for third-party integrations.
-- Enhanced event rule management with endpoints for creating, updating, and retrieving event rules, supporting complex business logic and validation.
-- Improved error handling, logging, and input validation across all integration-related APIs.
-- Refactored and optimized database models and migration scripts to support new integration features and ensure data consistency.
-- Collaborated with the frontend team to integrate backend APIs with the new Integration Site Portal UI, providing technical guidance and support for smooth integration.
-- Addressed feedback and fixed issues related to integration site creation, event rule updates, and API reliability.
-- Added video analyzing and detection endpoints to support advanced integration scenarios.
-- Ensured all new features were covered by appropriate tests and documentation for maintainability.
-
-
-### 🚦 **RevoSight NX – Login Hierarchy & User Roles Implementation**
-**Tech Stack:** FastAPI, Python, SQLModel, Alembic
-
-- Designed and implemented a flexible login hierarchy system to support multiple user roles and company associations.
-- Added `user_role` and `company` fields to the `User` model and database table, enabling role-based access and multi-company support.
-- Established relationships between users, companies, and NXServer entities to support hierarchical access control.
-- Introduced the `UserRole` enum and updated input/output schemas and service layers to use role types for improved validation and maintainability.
-- Enhanced JWT token generation and validation to include `user_role` for secure, role-based authentication and authorization.
-- Updated sign-in and user creation endpoints to handle user roles, company assignment, and improved error handling for user not found scenarios.
-- Refactored configuration and alarm monitor endpoints to leverage user roles and company context for access control.
-- Updated and added sample data in migration and dump scripts to support new login hierarchy and user role features.
-- Collaborated using mob programming to ensure robust, well-tested, and maintainable implementation across all related backend layers.
-
-📌 *See more projects in my repositories!*  
+Most of my work was contributed to team-owned or private repositories. Below are selected examples of features, improvements, and systems I worked on.
 
 ---
 
-## 📚 Currently Learning / Exploring  
-Deno • Vue.js • C++ • Flutter & Dart  
+### 🚦 RevoSight Web App – UI Refactor & Responsive Design  
+**Tech:** Next.js, TypeScript, CSS Modules  
+
+- Refactored and modularized UI components for better maintainability  
+- Improved responsive design across mobile, tablet, and desktop  
+- Standardized styling using CSS variables and design tokens  
+- Enhanced UI elements (tables, modals, forms) for usability  
+- Collaborated with stakeholders to align implementation with Figma designs  
 
 ---
 
-## 📫 How to Reach Me
-📧 Email: **zakersafdari@gmail.com**  
-🌐 LinkedIn: [linkedin.com/in/zakersafdari](https://www.linkedin.com/in/zakersafdari)  
+### 🚦 RevoSight – NX User Management Improvements  
+**Tech:** Next.js, TypeScript, React Query  
+
+- Refactored user management logic into feature-based structure  
+- Improved error handling with reusable components and notifications  
+- Fixed state management and caching issues for reliable UI updates  
+- Updated API integrations to align with backend changes  
 
 ---
 
-✨ *“Keep building, keep learning, and stay curious!”*
+### 🚦 RevoSight Backend – Admin Router & API Refactor  
+**Tech:** FastAPI, Python, Redis  
+
+- Built modular admin router to structure and secure backend APIs  
+- Refactored user management endpoints for improved maintainability  
+- Improved error handling, logging, and reliability across endpoints  
+- Implemented retry logic and token refresh for stable API behaviour  
+
+---
+
+### 🚦 Integration Site Portal – Backend System  
+**Tech:** FastAPI, SQLModel, PostgreSQL, Alembic, Redis  
+
+- Designed and implemented backend architecture for integration features  
+- Created APIs for managing integration sites, event rules, and API keys  
+- Built database schema and migration scripts for new features  
+- Implemented authentication and role-based access control  
+- Integrated backend with frontend systems and resolved API issues  
+
+---
+
+### 🚦 Login Hierarchy & Role-Based Access  
+**Tech:** FastAPI, SQLModel, Alembic  
+
+- Designed and implemented role-based authentication system  
+- Extended database schema for user roles and company relationships  
+- Updated authentication flows and token handling  
+- Refactored endpoints to support access control logic  
+
+---
+
+### 🚦 Roadsite Violation App (Mobile + Backend)  
+**Tech:** React Native (Expo), FastAPI, PostgreSQL  
+
+- Built full-stack feature for arm/disarm functionality  
+- Integrated frontend with backend APIs  
+- Implemented authentication and improved app structure  
+- Applied Figma designs to mobile UI  
+
+---
+
+## 📫 Contact
+
+📧 zakersafdari@gmail.com
+🌐 safdari.dev
+🌐 https://linkedin.com/in/zakersafdari  
+
+
+---
+
+✨ *Always learning, building, and improving.*
