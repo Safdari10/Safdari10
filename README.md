@@ -106,7 +106,7 @@ Most of my work was contributed to team-owned or private repositories. Below are
 ## 📫 Contact
 
 📧 zakersafdari@gmail.com
-🌐 safdari.dev
+🌐 https://safdari.dev
 🌐 https://linkedin.com/in/zakersafdari  
 
 
